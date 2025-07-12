@@ -1,0 +1,11 @@
+{
+    "watch_directory": "/tmp/lmbd_test",
+    "rotation_duration_seconds": 10,
+    "s3_bucket": "test-log-bucket",
+    "file_patterns": [
+        "errors\\.log$",
+        "access\\.log$",
+        "app-.*\\.log$"
+    ],
+    "s3_region": "us-east-1"
+}
